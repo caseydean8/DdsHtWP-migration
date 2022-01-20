@@ -16,8 +16,8 @@ const Navbar = () => {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -55,11 +55,31 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/buy-now">
-               BUY NOW 
+               BUY 
               </Link>
             </li>
           </ul>
+          {/* <Button>Portfolio</Button> */}
+          {/* <button type="button" class="btn btn-light">Light</button> */}
+          {/* <Button variant="light">Light</Button> */}
+
+          {/* <Button /> */}
+          {/* <form className="form-inline my-2 my-lg-0">
+            <input
+              className="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button
+              className="btn btn-outline-success my-2 my-sm-0"
+              type="submit"
+            >
+              Search
+            </button>
+          </form> */}
         </div>
+        {/* <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> */}
       </div>
     </nav>
   );
