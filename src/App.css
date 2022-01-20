@@ -49,3 +49,14 @@
   margin-right: auto;
   width: 50%; */
 }
+
+/********* Whiskey *********/
+.whiskey {
+  background: url(assets/whiskey-text.jpg) no-repeat;
+  /* grid-column: ; */
+}
+
+/********* Bottles *********/
+.bottle {
+  /* max-width: 20% !important; */
+}
