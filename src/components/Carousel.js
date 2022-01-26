@@ -8,7 +8,7 @@ const Carousel = () => {
     // <div className="row">
       <div
         id="carouselExampleControls"
-        className="carousel slide"
+        className="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
         <div className="carousel-inner">
