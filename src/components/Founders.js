@@ -3,7 +3,8 @@ import foundersImg from "../assets/founders.jpg";
 
 const Founders = () => {
   return (
-    <div className="row founders">
+    <div className="row">
+      {/* <div className="col founders"></div> */}
       <img src={foundersImg} alt="founders" />
     </div>
   );

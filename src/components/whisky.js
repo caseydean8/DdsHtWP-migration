@@ -1,5 +1,5 @@
 import React from "react";
-import whiskeyText from "../assets/whiskey-text.jpg";
+// import whiskeyText from "../assets/whiskey-text.jpg"; moved to css background: url()
 import vermouth from "../assets/1vermouth.png";
 import port from "../assets/2port-wine.png";
 import classic from "../assets/3classic.png";
