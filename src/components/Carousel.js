@@ -2,6 +2,7 @@ import React from "react";
 import spirit from "../assets/spirit.png";
 import ryeDelivered from "../assets/rye-delivered.jpg";
 import farmTo from "../assets/farm-to-bottle.jpg";
+import CarouselCard from "./CarouselCard";
 
 const Carousel = () => {
   return (
@@ -14,12 +15,15 @@ const Carousel = () => {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src={spirit} className="d-block w-100" alt="..." />
+            <CarouselCard />
           </div>
           <div className="carousel-item">
             <img src={ryeDelivered} className="d-block w-100" alt="..." />
+            <CarouselCard />
           </div>
           <div className="carousel-item">
             <img src={farmTo} className="d-block w-100" alt="..." />
+            <CarouselCard />
           </div>
         </div>
         <button
