@@ -11,7 +11,7 @@ function App() {
   return (
     // fixed full bleed issue with px-0, also may need "no-gutters" added to row class 
     //https://stackoverflow.com/questions/59100707/make-a-bootstrap-4-container-fluid-go-full-bleed-to-edge-of-browser-window
-    <div className="App container-fluid px-0">
+    <div className="App container-fluid p-0">
       <Navbar />
       {/* <Navbar5 /> */}
       <Carousel />

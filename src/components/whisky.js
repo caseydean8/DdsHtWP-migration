@@ -8,7 +8,7 @@ import bonded from "../assets/5bonded.png";
 
 const Whiskey = () => {
   return (
-    <div className="row whiskey">
+    <div className="row whiskey g-0">
       {/* <img src={whiskeyText} alt="whiskey text" /> */}
 
       <div className="col bottle">
