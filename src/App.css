@@ -34,7 +34,20 @@
   background-color: black;
   color: white;
 }
+/* ******** Carousel ******** */
+.item.next .carousel-caption {
+  opacity: 0;
+}
 
+.car-img {
+  /* width: 100%; */
+}
+
+.carousel-caption {
+transition: opacity .25s ease-in-out;
+-moz-transition: opacity .25s ease-in-out;
+-webkit-transition: opacity .25s ease-in-out;
+}
 
 /* .carousel-item img {
   width: 100%;
@@ -69,4 +82,25 @@
   max-width: 100%;
   max-height: 100%;
   /* display: block; */
+}
+
+/* ******** Media Queries ********* */
+
+@media (min-width: 20em) {
+  .row {
+    height: 34em;
+  }
+  .car-img {
+    height: 34em;
+    /* text-align: center; */
+  }
+  #spirit {
+    margin-left: 26%;
+    transform: translateX(-50%);
+  }
+
+  #rye-delivered {
+    margin-left: 90%;
+    transform: translateX(-50%);
+  }
 }
