@@ -2,21 +2,15 @@ import React from "react";
 
 const CarouselCard = (props) => {
   return (
-    <div className="carousel-caption">
-      <div className=" animated fadeIn card text-center">
-        <div className="card-header">Featured</div>
-        <div className="card-body">
-          <h5 className="card-title">Special title treatment</h5>
-          <p className="card-text">
-            With supporting text below as a natural lead-in to additional
-            content.
-          </p>
-          <a href="#" className="btn btn-primary">
-            {props.buttonText}
-          </a>
-        </div>
-        <div className="card-footer text-muted">2 days ago</div>
+    <div className="carousel-caption d-md-block">
+      <div id="bold">
+        <h1>{props.titleBold}</h1>
       </div>
+      <div className="cursive">
+        <h1>{props.titleCursive}</h1>
+      </div>
+      <hr className="red-break" ></hr>
+      <p>{props.cardText}</p>
     </div>
   );
 };

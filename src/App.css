@@ -43,21 +43,37 @@
   /* width: 100%; */
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow:wght@400;700&display=swap");
 
 .carousel-caption {
-transition: opacity .25s ease-in-out;
--moz-transition: opacity .25s ease-in-out;
--webkit-transition: opacity .25s ease-in-out;
-font-family: 'PT Sans Narrow', sans-serif;
+  position: absolute;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+  font-family: "PT Sans Narrow", sans-serif;
+  top: 20%;
+  left: 0 !important;
+  right: 0 !important;
+  margin-bottom: 12.25rem;
+  padding-top: 1.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background: rgba(66, 44, 7, 0.8);
 }
 
-.bold {
-  font-weight:900;
+#bold {
+  font-weight: 900;
+  margin-bottom: -0.5625rem;
+}
+
+.red-break {
+  background-color:  #c5262e;
+  height: 0.15rem !important;
+  opacity: 1;
 }
 
 .cursive {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
   -moz-animation: fadeIn linear 3s;
@@ -66,28 +82,48 @@ font-family: 'PT Sans Narrow', sans-serif;
 }
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-moz-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-o-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @-ms-keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* .carousel-item img {
