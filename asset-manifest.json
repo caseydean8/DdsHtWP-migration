@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.9bcd3b16.css",
-    "main.js": "/static/js/main.a4381192.js",
-    "static/media/founders.jpg": "/static/media/founders.bb3fbaf3798b9f867cf2.jpg",
-    "static/media/spirit.png": "/static/media/spirit.bef616091b40d2fbb1d1.png",
-    "static/media/4straight.png": "/static/media/4straight.8caf76e518620ca661e0.png",
-    "static/media/rye-delivered.jpg": "/static/media/rye-delivered.8474bf19bded3df40892.jpg",
-    "static/media/2port-wine.png": "/static/media/2port-wine.ab7dcc05c508c78ae0a3.png",
-    "static/media/1vermouth.png": "/static/media/1vermouth.3437e109250b6ee74f0b.png",
-    "static/media/5bonded.png": "/static/media/5bonded.d583a1c30275bcc6cf63.png",
-    "static/media/3classic.png": "/static/media/3classic.937c0a376d7b552d76dc.png",
-    "static/media/wheat-field-dh.jpeg": "/static/media/wheat-field-dh.22179e7054f323f2250f.jpeg",
-    "static/media/whiskey-text.jpg": "/static/media/whiskey-text.b064c3c23e7357448f8e.jpg",
-    "index.html": "/index.html",
-    "main.9bcd3b16.css.map": "/static/css/main.9bcd3b16.css.map",
-    "main.a4381192.js.map": "/static/js/main.a4381192.js.map"
+    "main.css": "/DdsHtWP-migration/static/css/main.a83350e8.css",
+    "main.js": "/DdsHtWP-migration/static/js/main.f2cb6f6a.js",
+    "static/media/founders.jpg": "/DdsHtWP-migration/static/media/founders.bb3fbaf3798b9f867cf2.jpg",
+    "static/media/spirit.png": "/DdsHtWP-migration/static/media/spirit.bef616091b40d2fbb1d1.png",
+    "static/media/4straight.png": "/DdsHtWP-migration/static/media/4straight.8caf76e518620ca661e0.png",
+    "static/media/rye-delivered.jpg": "/DdsHtWP-migration/static/media/rye-delivered.8474bf19bded3df40892.jpg",
+    "static/media/2port-wine.png": "/DdsHtWP-migration/static/media/2port-wine.ab7dcc05c508c78ae0a3.png",
+    "static/media/1vermouth.png": "/DdsHtWP-migration/static/media/1vermouth.3437e109250b6ee74f0b.png",
+    "static/media/5bonded.png": "/DdsHtWP-migration/static/media/5bonded.d583a1c30275bcc6cf63.png",
+    "static/media/3classic.png": "/DdsHtWP-migration/static/media/3classic.937c0a376d7b552d76dc.png",
+    "static/media/wheat-field-dh.jpeg": "/DdsHtWP-migration/static/media/wheat-field-dh.22179e7054f323f2250f.jpeg",
+    "static/media/whiskey-text.jpg": "/DdsHtWP-migration/static/media/whiskey-text.b064c3c23e7357448f8e.jpg",
+    "index.html": "/DdsHtWP-migration/index.html",
+    "main.a83350e8.css.map": "/DdsHtWP-migration/static/css/main.a83350e8.css.map",
+    "main.f2cb6f6a.js.map": "/DdsHtWP-migration/static/js/main.f2cb6f6a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bcd3b16.css",
-    "static/js/main.a4381192.js"
+    "static/css/main.a83350e8.css",
+    "static/js/main.f2cb6f6a.js"
   ]
 }
