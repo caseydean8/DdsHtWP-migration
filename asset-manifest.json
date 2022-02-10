@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.736b5f5d.css",
-    "main.js": "/static/js/main.b1644d1d.js",
+    "main.css": "/static/css/main.9bcd3b16.css",
+    "main.js": "/static/js/main.a4381192.js",
     "static/media/founders.jpg": "/static/media/founders.bb3fbaf3798b9f867cf2.jpg",
     "static/media/spirit.png": "/static/media/spirit.bef616091b40d2fbb1d1.png",
     "static/media/4straight.png": "/static/media/4straight.8caf76e518620ca661e0.png",
@@ -13,11 +13,11 @@
     "static/media/wheat-field-dh.jpeg": "/static/media/wheat-field-dh.22179e7054f323f2250f.jpeg",
     "static/media/whiskey-text.jpg": "/static/media/whiskey-text.b064c3c23e7357448f8e.jpg",
     "index.html": "/index.html",
-    "main.736b5f5d.css.map": "/static/css/main.736b5f5d.css.map",
-    "main.b1644d1d.js.map": "/static/js/main.b1644d1d.js.map"
+    "main.9bcd3b16.css.map": "/static/css/main.9bcd3b16.css.map",
+    "main.a4381192.js.map": "/static/js/main.a4381192.js.map"
   },
   "entrypoints": [
-    "static/css/main.736b5f5d.css",
-    "static/js/main.b1644d1d.js"
+    "static/css/main.9bcd3b16.css",
+    "static/js/main.a4381192.js"
   ]
 }
