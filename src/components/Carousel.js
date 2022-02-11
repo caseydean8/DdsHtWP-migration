@@ -33,7 +33,7 @@ const Carousel = () => {
             titleBold={"RYE"}
             titleCursive={"Delivered"}
             cardText={
-              "Dad's Hat Rye taps into the Keystone State's agricultural richness to produce genuine rye right here in Bucks County."
+              "Dad's Hat is real rye whiskey made the right way. Now Pennsylvania residents can order online for direct delivery"
             }
           />
         </div>

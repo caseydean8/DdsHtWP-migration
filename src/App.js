@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       {/* <Navbar5 /> */}
       <Carousel />
-      <Whiskey />
-      <Founders />
+      {/* <Whiskey /> */}
+      {/* <Founders /> */}
     </div>
   );
 }
