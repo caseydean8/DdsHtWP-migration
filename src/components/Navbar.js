@@ -14,7 +14,7 @@ const Navbar = () => {
           <img src={logo} className="logo" alt="logo" />
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler collapsed"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -23,7 +23,8 @@ const Navbar = () => {
           aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-          {/* <FontAwesomeIcon icon={faBars} /> */}
+          <span></span>
+          <span></span>
         </button>
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,7 +41,7 @@ const Navbar = () => {
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/cocktails">
-               COCKTAILS
+                COCKTAILS
               </Link>
             </li>
             <li className="nav-item">
@@ -50,12 +51,12 @@ const Navbar = () => {
             </li>{" "}
             <li className="nav-item">
               <Link className="nav-link" to="/news">
-               NEWS 
+                NEWS
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/buy-now">
-               BUY 
+                BUY
               </Link>
             </li>
           </ul>
