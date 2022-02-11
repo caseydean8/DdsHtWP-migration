@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DdsHtWP-migration/static/css/main.5edc6bbc.css",
-    "main.js": "/DdsHtWP-migration/static/js/main.625e600f.js",
+    "main.css": "/DdsHtWP-migration/static/css/main.bfd197bf.css",
+    "main.js": "/DdsHtWP-migration/static/js/main.937b7e20.js",
     "static/media/founders.jpg": "/DdsHtWP-migration/static/media/founders.bb3fbaf3798b9f867cf2.jpg",
     "static/media/spirit.png": "/DdsHtWP-migration/static/media/spirit.bef616091b40d2fbb1d1.png",
     "static/media/4straight.png": "/DdsHtWP-migration/static/media/4straight.8caf76e518620ca661e0.png",
@@ -13,11 +13,11 @@
     "static/media/wheat-field-dh.jpeg": "/DdsHtWP-migration/static/media/wheat-field-dh.22179e7054f323f2250f.jpeg",
     "static/media/whiskey-text.jpg": "/DdsHtWP-migration/static/media/whiskey-text.b064c3c23e7357448f8e.jpg",
     "index.html": "/DdsHtWP-migration/index.html",
-    "main.5edc6bbc.css.map": "/DdsHtWP-migration/static/css/main.5edc6bbc.css.map",
-    "main.625e600f.js.map": "/DdsHtWP-migration/static/js/main.625e600f.js.map"
+    "main.bfd197bf.css.map": "/DdsHtWP-migration/static/css/main.bfd197bf.css.map",
+    "main.937b7e20.js.map": "/DdsHtWP-migration/static/js/main.937b7e20.js.map"
   },
   "entrypoints": [
-    "static/css/main.5edc6bbc.css",
-    "static/js/main.625e600f.js"
+    "static/css/main.bfd197bf.css",
+    "static/js/main.937b7e20.js"
   ]
 }
