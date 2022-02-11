@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DdsHtWP-migration/static/css/main.5edc6bbc.css",
-    "main.js": "/DdsHtWP-migration/static/js/main.3d4d04b0.js",
+    "main.js": "/DdsHtWP-migration/static/js/main.625e600f.js",
     "static/media/founders.jpg": "/DdsHtWP-migration/static/media/founders.bb3fbaf3798b9f867cf2.jpg",
     "static/media/spirit.png": "/DdsHtWP-migration/static/media/spirit.bef616091b40d2fbb1d1.png",
     "static/media/4straight.png": "/DdsHtWP-migration/static/media/4straight.8caf76e518620ca661e0.png",
@@ -14,10 +14,10 @@
     "static/media/whiskey-text.jpg": "/DdsHtWP-migration/static/media/whiskey-text.b064c3c23e7357448f8e.jpg",
     "index.html": "/DdsHtWP-migration/index.html",
     "main.5edc6bbc.css.map": "/DdsHtWP-migration/static/css/main.5edc6bbc.css.map",
-    "main.3d4d04b0.js.map": "/DdsHtWP-migration/static/js/main.3d4d04b0.js.map"
+    "main.625e600f.js.map": "/DdsHtWP-migration/static/js/main.625e600f.js.map"
   },
   "entrypoints": [
     "static/css/main.5edc6bbc.css",
-    "static/js/main.3d4d04b0.js"
+    "static/js/main.625e600f.js"
   ]
 }
