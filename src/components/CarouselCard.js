@@ -9,8 +9,10 @@ const CarouselCard = (props) => {
       <div className="cursive">
         <h1>{props.titleCursive}</h1>
       </div>
-      <hr className="red-break" ></hr>
-      <p>{props.cardText}</p>
+      <hr className="red-break"></hr>
+      <div className="card-text">
+        <p>{props.cardText}</p>
+      </div>
     </div>
   );
 };

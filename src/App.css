@@ -1,16 +1,7 @@
+/* ******* App.css file ******* */
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -65,36 +56,43 @@
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(3) {
-  transform: translate(15%, 33%) rotate(-45deg) ;
+  transform: translate(15%, 33%) rotate(-45deg);
 }
 
 .navbar-toggler span:nth-child(1) {
-  transform: translate(0%, 0%) rotate(0deg) ;
+  transform: translate(0%, 0%) rotate(0deg);
 }
 
 .navbar-toggler span:nth-child(2) {
   opacity: 1;
 }
 .navbar-toggler span:nth-child(3) {
-  transform: translate(0%, 0%) rotate(0deg) ;
+  transform: translate(0%, 0%) rotate(0deg);
 }
 
 /* ******** Carousel ******** */
-.item.next .carousel-caption {
-  opacity: 0;
+
+/* change transition duration to control the speed of fade effect */
+/* .carousel-item {
+  transition: transform 2.0s ease-in-out;
 }
 
-.car-img {
-  /* width: 100%; */
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.0s;
+} */
+
+.item.next .carousel-caption {
+  opacity: 0;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=PT+Sans+Narrow:wght@400;700&display=swap");
 
 .carousel-caption {
   position: absolute;
-  transition: opacity 0.25s ease-in-out;
-  -moz-transition: opacity 0.25s ease-in-out;
-  -webkit-transition: opacity 0.25s ease-in-out;
+  transition: opacity 2.0s ease-in-out;
+  -moz-transition: opacity 2.0s ease-in-out;
+  -webkit-transition: opacity 2.0s ease-in-out;
   font-family: "PT Sans Narrow", sans-serif;
   top: 20%;
   left: 0 !important;
@@ -112,7 +110,7 @@
 }
 
 .red-break {
-  background-color:  #c5262e;
+  background-color: #c5262e;
   height: 0.15rem !important;
   opacity: 1;
 }
@@ -171,6 +169,11 @@
   }
 }
 
+/* .card-text {
+  transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  -webkit-transition: opacity 0.5s ease-in-out;
+} */
 /* .carousel-item img {
   width: 100%;
   height: 100%;
@@ -195,7 +198,9 @@
 
 /********* Bottles *********/
 .bottle {
-  max-width: 20% !important;
+  background-color: #000;
+  padding: 0.625rem;
+  /* max-width: 20% !important; */
   /* display: flex; */
   /* flex-flow: row-wrap; */
 }
