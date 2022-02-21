@@ -8,12 +8,12 @@ import Bonded from "../assets/5bonded.png";
 
 const BottleWrapper = () => {
   return (
-    <div className="bottle-wrapper">
-      <Bottle image={Vermouth} />
-      <Bottle image={PortWine} />
-      <Bottle image={Classic} />
-      <Bottle image={Straight} />
-      <Bottle image={Bonded} />
+    <div className="bottle-container">
+      <Bottle image={Vermouth} flavor={"VERMOUTH FINISH"} />
+      <Bottle image={PortWine} flavor={"PORT WINE FINISH"} />
+      <Bottle image={Classic} flavor={"CLASSIC RYE"} />
+      <Bottle image={Straight} flavor={"STRAIGHT RYE"} />
+      <Bottle image={Bonded} flavor={"BONDED RYE"} />
     </div>
   );
 };
