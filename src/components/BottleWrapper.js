@@ -11,6 +11,7 @@ import Bonded from "../assets/5bonded.png";
 const BottleWrapper = () => {
   return (
     <div className="bottle-container">
+      Press button for modal
       <Bottle image={Vermouth} flavor={"VERMOUTH FINISH"} modalText={vermTxt} modalSelect={"verm"} />
       <Bottle image={PortWine} flavor={"PORT WINE FINISH"} modalSelect={"port"} />
       <Bottle image={Classic} flavor={"CLASSIC RYE"} modalSelect={"clas"} />

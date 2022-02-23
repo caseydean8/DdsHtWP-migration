@@ -217,8 +217,10 @@
 
 .keystone-divider {
   background: url("./assets/keystone-divider.png") center center cover;
-  grid-area: 2/3/3/2;
-  margin-top: -20px;
+  grid-area: 1/4/2/2;
+  width: 70%;
+  margin: 2.5rem 1.5rem 1rem 3.75rem;
+  /* margin-top: -20px; */
   /* height: 3.5rem; */
   /* width:100px; */
 }
@@ -228,7 +230,7 @@
 }
 
 .keystone-text {
-  margin-top: -1.875rem;
+  margin-top: -2.2rem;
 }
 
 .bottle-divider {
@@ -240,11 +242,26 @@
   margin: 0;
 }
 
+/* bottle-divider 2 */
 #bd-2 {
   margin-top: 3rem;
 }
 
+/* modal button */
+.bottle-modal {
+  grid-area: 1/4/2/2;
+  width: 60%;
+  height: 10%;
+  margin: 2.5rem 1.5rem 1rem 4.75rem;
+  background-color: #f6e59d;
+}
 
+/* modal */
+.modal-content {
+  background-image: url("./assets/verm-background.jpg");
+  min-height: 97vh;
+  text-shadow: #fff 1px 1px;
+}
 /* ******** Media Queries ********* */
 
 @media (min-width: 20em) {
