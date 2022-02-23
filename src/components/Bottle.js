@@ -1,9 +1,10 @@
 import React from "react";
 // imr: import React from 'react'
 import Keystone from "../assets/keystone-divider.png";
-import BottleModal from './BottleModal';
+import BottleModal from "./BottleModal";
 
-const Bottle = (props) => {
+function Bottle(props) {
+  console.log(props, "props at Bottle");
   return (
     <div className="modal-wrapper">
       <div className="bottle-wrapper">
@@ -14,7 +15,8 @@ const Bottle = (props) => {
           type="button"
           className="btn btn-primary bottle-modal"
           data-bs-toggle="modal"
-          data-bs-target="#exampleModal"
+          // data-bs-target="#exampleModal"
+          data-bs-target={`#${props.modalSelect}`}
         >
           {props.flavor}
         </button>
@@ -24,8 +26,9 @@ const Bottle = (props) => {
         </div>
         <hr className="bottle-divider"></hr>
         <hr id="bd-2" className="bottle-divider"></hr>
+
+        <BottleModal flavor={props.flavor} modalSelect={props.modalSelect} />
       </div>
-      <BottleModal flavor={props.flavor} />
     </div>
   );
 };

@@ -4,8 +4,10 @@ const BottleModal = (props) => {
   return (
     <div
       className="modal fade"
-      id="exampleModal"
-      tabindex="-1"
+      // change id for specific modal below
+      // id="exampleModal"
+      id={props.modalSelect}
+      tabIndex="-1"
       aria-labelledby="exampleModalLabel"
       aria-hidden="true"
     >

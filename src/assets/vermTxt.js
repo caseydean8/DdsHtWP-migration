@@ -1,0 +1,3 @@
+const vermTxt = "DAD'S HAT VERMOUTH FINISH RYE WARM RYE INFUSED WITH THE SWEETNESS OF VERMOUTH";
+
+export default vermTxt;
