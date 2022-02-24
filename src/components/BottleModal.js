@@ -1,4 +1,5 @@
 import React from "react";
+import footerLogo from "../assets/white-logo.webp";
 
 const BottleModal = (props) => {
   return (
@@ -24,11 +25,13 @@ const BottleModal = (props) => {
           </div>
           <div className="modal-body">
             {props.modalText}... Webpage to appear here
+            {props.modalContent}
           </div>
           <div className="modal-footer">
+            <img className="modal-footer-logo" src={footerLogo} alt="" />
             <button
               type="button"
-              className="btn btn-secondary"
+              className="btn modal-footer-button"
               data-bs-dismiss="modal"
             >
               Close

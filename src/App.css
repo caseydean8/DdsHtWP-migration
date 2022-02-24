@@ -257,10 +257,75 @@
 }
 
 /* modal */
+
+.modal-header {
+  color: #c6262e;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 110%;
+}
+
 .modal-content {
-  background-image: url("./assets/verm-background.jpg");
+  /* background-image: url("./assets/verm-background.jpg"); */
   min-height: 97vh;
-  text-shadow: #fff 1px 1px;
+  /* text-shadow: #fff 1px 1px; */
+  font-family: "PT Sans Narrow";
+  font-size: 24px;
+  /* text-align: left; */
+  line-height: 110%;
+
+  /* padding: 0.4375rem; */
+}
+
+.modal-divider {
+  border-top: 0.1875rem solid;
+  margin: 2.5rem 0.1875rem;
+}
+
+.modal-image {
+  width: 114%;
+  /* text-align: center; */
+}
+
+.top-100 {
+  text-align: center !important;
+  margin-bottom: 2.5rem;
+}
+
+.tasting-notes {
+  background-image: url("./assets/black-wood.webp");
+  /* width: 100%; */
+  /* position: absolute; */
+  /* margin-left: -1rem; */
+  /* margin-right: -1rem; */
+  /* left: 49%; */
+  /* right: 49%; */
+  /* margin-left: -49vw; */
+  /* margin-right: -49vw;  */
+}
+
+.tasting-notes-text {
+  color: #fff;
+  /* border-left: 5px solid #c6262f; */
+  /* border-right: 5px solid #c6262f; */
+  padding: 1.25rem;
+}
+
+/* Modal Footer */
+.modal-footer {
+  background: #73080b;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.modal-footer-logo {
+  grid-area: 1/3/2/1;
+}
+
+.modal-footer-button {
+  grid-area: 1/4/2/3;
+  border: #fff solid;
+  color: #fff;
 }
 /* ******** Media Queries ********* */
 

@@ -27,7 +27,7 @@ const Carousel = () => {
             src={ryeDelivered}
             id="rye-delivered"
             className="d-block car-img"
-            alt="..."
+            alt="..jk."
           />
           <CarouselCard
             titleBold={"RYE"}
