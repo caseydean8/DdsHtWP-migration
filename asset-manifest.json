@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DdsHtWP-migration/static/css/main.6b5aaffb.css",
-    "main.js": "/DdsHtWP-migration/static/js/main.94b5ea26.js",
+    "main.css": "/DdsHtWP-migration/static/css/main.1371c3cb.css",
+    "main.js": "/DdsHtWP-migration/static/js/main.6c7e832f.js",
     "static/media/founders.jpg": "/DdsHtWP-migration/static/media/founders.bb3fbaf3798b9f867cf2.jpg",
     "static/media/spirit.png": "/DdsHtWP-migration/static/media/spirit.bef616091b40d2fbb1d1.png",
     "static/media/4straight.png": "/DdsHtWP-migration/static/media/4straight.8caf76e518620ca661e0.png",
@@ -17,11 +17,11 @@
     "static/media/wine-en-top100.png": "/DdsHtWP-migration/static/media/wine-en-top100.0ceb32e6cbb25195fd7e.png",
     "static/media/white-logo.webp": "/DdsHtWP-migration/static/media/white-logo.d97caca8b82814009999.webp",
     "index.html": "/DdsHtWP-migration/index.html",
-    "main.6b5aaffb.css.map": "/DdsHtWP-migration/static/css/main.6b5aaffb.css.map",
-    "main.94b5ea26.js.map": "/DdsHtWP-migration/static/js/main.94b5ea26.js.map"
+    "main.1371c3cb.css.map": "/DdsHtWP-migration/static/css/main.1371c3cb.css.map",
+    "main.6c7e832f.js.map": "/DdsHtWP-migration/static/js/main.6c7e832f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b5aaffb.css",
-    "static/js/main.94b5ea26.js"
+    "static/css/main.1371c3cb.css",
+    "static/js/main.6c7e832f.js"
   ]
 }
