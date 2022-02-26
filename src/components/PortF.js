@@ -8,7 +8,7 @@ const PortF = (
         href="http://www.tastings.com/Spirits-Review/Dads-Hat-Pennsylvania-Rye-Whiskey-Finished-in-Port-Wine-Barrels-USA-94-Proof-03-01-2015.aspx"
         target="_blank"
         rel="noopener noreferrer"
-        style={{ color: "#c6262" }}
+        style={{ color: "#c6262e" }}
       >
         Beverage Tasting Institute
       </a>{" "}
