@@ -24,7 +24,8 @@ function Bottle(props) {
         >
           {props.flavor}
         </button>
-
+        <div className="keystone-top"></div>
+        <div className="keystone"></div>
         {/* Below- keystone logo/button */}
         {/* <div
           className="keystone-divider"
@@ -36,8 +37,8 @@ function Bottle(props) {
           <p className="keystone-text">{props.flavor}</p>
         </div> */}
 
-        {/* <hr className="bottle-divider"></hr>
-        <hr id="bd-2" className="bottle-divider"></hr> */}
+        <hr className="bottle-divider"></hr>
+        <hr id="bd-2" className="bottle-divider"></hr>
 
         <BottleModal
           flavor={props.flavor}

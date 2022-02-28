@@ -173,7 +173,7 @@
 .bottle-wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 10fr 2fr;
+  grid-template-rows: 9fr 0.75fr 1.5fr 2fr;
 }
 
 .bottle {
@@ -187,6 +187,23 @@
   max-height: 97vh;
 }
 
+.keystone-top {
+  grid-area: 2/3/3/2;
+  width: 20vh;
+  border-top: 8vw solid #f6e59d;
+  border-left: 3vw solid transparent;
+  border-right: 3vw solid transparent;
+  align-self: end;
+  justify-self: center;
+}
+.keystone {
+  grid-area: 3/3/4/2;
+  border-left: 5vw solid transparent;
+  border-right: 5vw solid transparent;
+  border-top: 20vw solid #f6e59d;
+  align-self: baseline;
+}
+
 .keystone-divider {
   background: url("./assets/keystone-divider.png") center center cover;
   grid-area: 1/4/2/2;
@@ -195,7 +212,7 @@
 }
 
 .keystone {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .keystone-text {
@@ -204,14 +221,17 @@
 
 .bottle-divider {
   background-color: #f6e59d;
-  grid-area: 2/4/2/1;
+  grid-area: 3/4/3/1;
   opacity: 1;
   margin: 0;
+  /* border: 2px solid #f6e59d; */
+  /* width: 2px; */
 }
 
 /* bottle-divider 2 */
 #bd-2 {
-  margin-top: 3rem;
+  grid-area: 3/4/3/1;
+  align-self: end;
 }
 
 /* modal button */
