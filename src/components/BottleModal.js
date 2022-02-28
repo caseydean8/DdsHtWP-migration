@@ -13,9 +13,6 @@ const BottleModal = (props) => {
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
-            {/* <h5 className="modal-title" id="exampleModalLabel">
-              {props.flavor}
-            </h5> */}
             <button
               type="button"
               className="btn-close"
@@ -27,7 +24,11 @@ const BottleModal = (props) => {
             {props.modalContent ? props.modalContent : <p>Webpage Here</p>}
           </div>
           <div className="modal-footer">
-            <img className="modal-footer-logo" src={footerLogo} alt="" />
+            <img
+              className="modal-footer-logo"
+              src={footerLogo}
+              alt="Dad's Hat logo"
+            />
             <button
               type="button"
               className="btn modal-footer-button"
