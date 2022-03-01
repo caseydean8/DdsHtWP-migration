@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "frontage-condensed-bold";
+  src: url("frontage-condensed-bold-webfont.woff2")
+      format("woff2"),
+    url("frontage-condensed-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

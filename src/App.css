@@ -79,15 +79,24 @@
   background: rgba(66, 44, 7, 0.8);
 }
 
-@font-face {
+/* @font-face {
   font-family: "FrontageCondensed-Bold";
-  src: local("GoldmanBold"),
-    url("./assets/fonts/Frontage\ Condensed\ Bold.ttf") format("truetype");
+  src: url("./assets/fonts/Frontage-Condensed-Bold.ttf") format("truetype");
   font-weight: bold;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: "frontage-condensed-bold";
+  src: url("./assets/fonts/frontage-condensed-bold-webfont.woff2")
+      format("woff2"),
+    url("./assets/fonts/frontage-condensed-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 
 #bold {
-  font-family: "FrontageCondensed-Bold";
+  font-family: "frontage-condensed-bold";
   font-size: 6rem;
   text-shadow: 0rem 0rem 1.25rem black;
   letter-spacing: -0.12em;

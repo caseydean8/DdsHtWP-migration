@@ -25,7 +25,9 @@ function Bottle(props) {
           {props.flavor}
         </button>
         <div className="keystone-top"></div>
-        <div className="keystone"></div>
+        <div className="keystone">
+          {/* <p>{props.flavor}</p> */}
+        </div>
         {/* Below- keystone logo/button */}
         {/* <div
           className="keystone-divider"
