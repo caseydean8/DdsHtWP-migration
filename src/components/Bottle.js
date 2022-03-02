@@ -12,6 +12,8 @@ function Bottle(props) {
             className="bottle-img"
             src={props.image}
             alt={`${props.flavor} whiskey bottle`}
+            width="240"
+            height="680"
           />
         </div>
 

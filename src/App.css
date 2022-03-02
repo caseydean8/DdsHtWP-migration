@@ -1,11 +1,9 @@
 /* ******* App.css file ******* */
-
 .App {
   text-align: center;
 }
 
-/********* NAVBAR *********/
-
+/************* NAVBAR NAVBAR *************/
 .navbar {
   background-color: black;
   color: white;
@@ -55,8 +53,7 @@
   transform: translate(0%, 0%) rotate(0deg);
 }
 
-/* ******** Carousel ******** */
-
+/* ******** CAROUSEL CAROUSEL ******** */
 .item.next .carousel-caption {
   opacity: 0;
 }
@@ -79,23 +76,9 @@
   background: rgba(66, 44, 7, 0.8);
 }
 
-/* @font-face {
-  font-family: "FrontageCondensed-Bold";
-  src: url("./assets/fonts/Frontage-Condensed-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-display: swap;
-} */
-
-@font-face {
-  font-family: "frontage-condensed-bold";
-  src: url("./assets/fonts/frontage-condensed-bold-webfont.woff2")
-      format("woff2"),
-    url("./assets/fonts/frontage-condensed-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
 
 #bold {
+  /* @font-face preloaded in public/font.css */
   font-family: "frontage-condensed-bold";
   font-size: 6rem;
   text-shadow: 0rem 0rem 1.25rem black;
@@ -180,6 +163,9 @@
 
 /********* Bottles *********/
 .bottle-wrapper {
+
+  /* height: 41.5rem; */
+  /* width: 56.22%; */
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 9fr 0.75fr 1.5fr 2fr;
@@ -193,7 +179,8 @@
 }
 
 .bottle-img {
-  max-height: 97vh;
+   height: 100%;
+  width: auto;
 }
 
 .keystone-top {
@@ -332,7 +319,23 @@ a {
 }
 /* ******** Media Queries ********* */
 
-@media (min-width: 20em) {
+@media (min-width: 667px) {
+ /* ******** SPIRIT SPIRIT *********/
+ .car-img {
+   width: 100%;
+   height: auto;
+ }
+
+ #farm-to-mobile {
+   display: none;
+ }
+
+  #farm-to-big {
+    display: block;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 666px){
   .row {
     height: 34em;
   }
@@ -343,10 +346,16 @@ a {
   #spirit {
     margin-left: 26%;
     transform: translateX(-50%);
+    /* width:auto; */
+    /* height:90%; */
   }
 
   #rye-delivered {
     margin-left: 90%;
     transform: translateX(-50%);
+  }
+
+  #farm-to-big {
+    display: none;
   }
 }

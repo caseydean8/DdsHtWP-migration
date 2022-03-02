@@ -2,6 +2,7 @@ import React from "react";
 import spirit from "../assets/spirit.png";
 import ryeDelivered from "../assets/rye-delivered.jpg";
 import farmTo from "../assets/wheat-field-dh.jpeg";
+import farmToBig from "../assets/farm-to-bottle.jpg";
 import CarouselCard from "./CarouselCard";
 
 const Carousel = () => {
@@ -13,7 +14,15 @@ const Carousel = () => {
     >
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src={spirit} id="spirit" className="d-block car-img" alt="..." />
+          <img
+            src={spirit}
+            id="spirit"
+            className="d-block car-img"
+            alt="..."
+            width="1057.77"
+            height="544"
+          />
+          {/* width=1400 height=720 */}
           <CarouselCard
             titleBold={"Spirit"}
             titleCursive={"of Tradition"}
@@ -27,7 +36,9 @@ const Carousel = () => {
             src={ryeDelivered}
             id="rye-delivered"
             className="d-block car-img"
-            alt="..jk."
+            alt="..."
+            width="1400"
+            height="720"
           />
           <CarouselCard
             titleBold={"RYE"}
@@ -38,7 +49,22 @@ const Carousel = () => {
           />
         </div>
         <div className="carousel-item">
-          <img src={farmTo} className="d-block car-img" alt="..." />
+          <img
+            id="farm-to-mobile"
+            src={farmTo}
+            className="car-img"
+            alt="..."
+            width="527"
+            height="626"
+          />
+          <img
+            id="farm-to-big"
+            src={farmToBig}
+            className="car-img"
+            alt="..."
+            width="1400"
+            height="720"
+          />
           <CarouselCard
             titleBold={"FARM"}
             titleCursive={"To Bottle"}
