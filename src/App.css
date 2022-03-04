@@ -76,7 +76,6 @@
   background: rgba(66, 44, 7, 0.8);
 }
 
-
 #bold {
   /* @font-face preloaded in public/font.css */
   font-family: "frontage-condensed-bold";
@@ -162,10 +161,13 @@
 }
 
 /********* Bottles *********/
-.bottle-wrapper {
+/* .modal-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+} */
 
-  /* height: 41.5rem; */
-  /* width: 56.22%; */
+.bottle-wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
   grid-template-rows: 9fr 0.75fr 1.5fr 2fr;
@@ -179,8 +181,9 @@
 }
 
 .bottle-img {
-   height: 100%;
-  width: auto;
+  /* height: 100%; */
+  /* width: auto; */
+  max-width: 84%;
 }
 
 .keystone-top {
@@ -318,24 +321,63 @@ a {
   color: #fff;
 }
 /* ******** Media Queries ********* */
-
 @media (min-width: 667px) {
- /* ******** SPIRIT SPIRIT *********/
- .car-img {
-   width: 100%;
-   height: auto;
- }
+  /* ******** SPIRIT SPIRIT *********/
+  .car-img {
+    width: 100%;
+    height: auto;
+  }
 
- #farm-to-mobile {
-   display: none;
- }
+  #farm-to-mobile {
+    display: none;
+  }
 
   #farm-to-big {
     display: block;
   }
+
+  /* ******** Bottle Container ******** */
+  .bottle-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "vermouth port-wine classic-rye straight-rye bonded-rye";
+    background-color: #000;
+  }
+
+  #vermouth {
+    grid-area: vermouth;
+  }
+  #port-wine {
+    grid-area: port-wine;
+  }
+  #classic-rye {
+    grid-area: classic-rye;
+  }
+  #straight-rye {
+    grid-area: straight-rye;
+  }
+  #bonded-rye {
+    grid-area: bonded-rye;
+  }
+
+  .bottle-wrapper {
+    /* height: fit-content;  */
+  } 
+
+  .bottle {
+    aspect-ratio: 71/136;
+  }
+
+  .bottle-img {
+    max-width: 84%;
+    height: min-content;
+    /* aspect-ratio: 71/136; */
+    /* margin: 0 0.625rem 0 0.625rem; */
+  }
 }
 
-@media (min-width: 320px) and (max-width: 666px){
+@media (min-width: 320px) and (max-width: 666px) {
   .row {
     height: 34em;
   }
