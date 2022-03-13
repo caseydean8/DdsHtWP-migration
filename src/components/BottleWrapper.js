@@ -14,32 +14,32 @@ const BottleWrapper = () => {
       <Bottle
         id={"#vermouth"}
         image={Vermouth}
-        flavor={"VERMOUTH FINISH"}
+        flavor={"VERMOUTH\nFINISH"}
         modalContent={VermouthF}
         modalSelect={"verm"}
       />
       <Bottle
         id={"#port-wine"}
         image={PortWine}
-        flavor={"PORT WINE FINISH"}
+        flavor={"PORT WINE \n FINISH"}
         modalSelect={"port"}
       />
       <Bottle
         id={"#classic-rye"}
         image={Classic}
-        flavor={"CLASSIC RYE"}
+        flavor={"CLASSIC \n RYE"}
         modalSelect={"classic"}
       />
       <Bottle
         id={"#straight-rye"}
         image={Straight}
-        flavor={"STRAIGHT RYE"}
+        flavor={"STRAIGHT \n RYE"}
         modalSelect={"straight"}
       />
       <Bottle
         id={"#bonded-rye"}
         image={Bonded}
-        flavor={"BONDED RYE"}
+        flavor={"BONDED \n RYE"}
         modalSelect={"bond"}
       />
     </div>

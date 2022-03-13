@@ -160,87 +160,6 @@
   background-color: #000;
 }
 
-/********* Bottles *********/
-/* .modal-wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-} */
-
-.bottle-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 9fr 0.75fr 1.5fr 2fr;
-}
-
-.bottle {
-  background-color: #000;
-  padding: 0.625rem;
-  grid-area: 1/4/5/1;
-  border-bottom: #f6e59d solid 0.1875rem;
-}
-
-.bottle-img {
-  /* height: 100%; */
-  /* width: auto; */
-  max-width: 84%;
-}
-
-.keystone-top {
-  grid-area: 2/3/3/2;
-  width: 20vh;
-  border-top: 8vw solid #f6e59d;
-  border-left: 3vw solid transparent;
-  border-right: 3vw solid transparent;
-  align-self: end;
-  justify-self: center;
-}
-.keystone {
-  grid-area: 3/3/4/2;
-  border-left: 5vw solid transparent;
-  border-right: 5vw solid transparent;
-  border-top: 20vw solid #f6e59d;
-  align-self: baseline;
-}
-
-.keystone-divider {
-  background: url("./assets/keystone-divider.png") center center cover;
-  grid-area: 1/4/2/2;
-  width: 70%;
-  margin: 2.5rem 1.5rem 1rem 3.75rem;
-}
-
-.keystone {
-  /* width: 100%; */
-}
-
-.keystone-text {
-  margin-top: -2.2rem;
-}
-
-.bottle-divider {
-  background-color: #f6e59d;
-  grid-area: 3/4/3/1;
-  opacity: 1;
-  margin: 0;
-  /* border: 2px solid #f6e59d; */
-  /* width: 2px; */
-}
-
-/* bottle-divider 2 */
-#bd-2 {
-  grid-area: 3/4/3/1;
-  align-self: end;
-}
-
-/* modal button */
-.bottle-modal {
-  grid-area: 1/4/2/2;
-  width: 60%;
-  height: 10%;
-  margin: 2.5rem 1.5rem 1rem 4.75rem;
-  background-color: #f6e59d;
-}
 
 /* modal */
 
@@ -321,7 +240,7 @@ a {
   color: #fff;
 }
 /* ******** Media Queries ********* */
-@media (min-width: 667px) {
+@media (min-width: 885px) {
   /* ******** SPIRIT SPIRIT *********/
   .car-img {
     width: 100%;
@@ -339,7 +258,8 @@ a {
   /* ******** Bottle Container ******** */
   .bottle-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: auto auto auto auto auto;
     grid-template-rows: auto;
     grid-template-areas: "vermouth port-wine classic-rye straight-rye bonded-rye";
     background-color: #000;
@@ -359,14 +279,6 @@ a {
   }
   #bonded-rye {
     grid-area: bonded-rye;
-  }
-
-  .bottle-wrapper {
-    /* height: fit-content;  */
-  } 
-
-  .bottle {
-    aspect-ratio: 71/136;
   }
 
   .bottle-img {
