@@ -2,7 +2,7 @@ import React from "react";
 // imr: import React from 'react'
 import BottleModal from "./BottleModal";
 import "./Bottle.css";
-import Keystone from "../assets/keystone-divider.png";
+// import Keystone from "../assets/keystone-divider.png";
 
 function Bottle(props) {
   return (
@@ -16,14 +16,14 @@ function Bottle(props) {
       />
 
       {/* Below- bootstrap button */}
-      {/* <button
+      <button
         type="button"
-        className="btn bottle-modal"
+        className="btn bottle-modal d-sm-grid d-md-none"
         data-bs-toggle="modal"
         data-bs-target={`#${props.modalSelect}`}
       >
         {props.flavor}
-      </button> */}
+      </button>
 
       {/* <div className="keystone-top"></div> */}
       {/* <div className="keystone"></div> */}
@@ -31,7 +31,7 @@ function Bottle(props) {
       {/* Below- keystone logo/button */}
       <button
         type="button"
-        className="btn keystone-divider"
+        className="btn d-none d-md-grid keystone-divider"
         data-bs-toggle="modal"
         data-bs-target={`#${props.modalSelect}`}
       >{props.flavor}
@@ -39,8 +39,8 @@ function Bottle(props) {
 
         {/* <div className="keystone-text">{props.flavor}</div> */}
 
-      <hr className="bottle-divider"></hr>
-      <hr id="bd-2" className="bottle-divider"></hr>
+      <hr className="bottle-divider d-none d-md-grid"></hr>
+      <hr id="bd-2" className="bottle-divider d-none d-md-grid"></hr>
 
       <BottleModal
         flavor={props.flavor}

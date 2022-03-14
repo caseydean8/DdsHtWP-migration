@@ -1,17 +1,13 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-// React fontawesome import
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faBars } from "@fortawesome/free-solid-svg-icons";
-// import Button from "./Button";
 
 const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark">
       <div className="container">
         <Link className="navbar-brand" to="">
-          <img src={logo} className="logo" alt="logo" />
+          <img src={logo} className="logo" alt="logo" width="180" height="48" />
         </Link>
         <button
           className="navbar-toggler collapsed"

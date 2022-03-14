@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import vermOverhead from "../assets/verm-overhead-2020.png";
 import top100 from "../assets/wine-en-top100.png";
 

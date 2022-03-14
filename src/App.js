@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Carousel from "./components/Carousel";
 import BottleWrapper from "./components/BottleWrapper";
+import Footer from "./components/Footer";
 // import Founders from './components/Founders';
 // import Whiskey from './components/whisky';
 
@@ -14,6 +15,7 @@ function App() {
       <Navbar />
       <Carousel />
       <BottleWrapper />
+      <Footer />
       {/* <Whiskey /> */}
       {/* <Founders /> */}
     </div>

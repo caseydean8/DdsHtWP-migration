@@ -66,14 +66,19 @@
   -moz-transition: opacity 2s ease-in-out;
   -webkit-transition: opacity 2s ease-in-out;
   font-family: "PT Sans Narrow", sans-serif;
-  top: 20%;
+  /* min-height: 20.8125rem; */
+  /* top: 35%; */
   left: 0 !important;
   right: 0 !important;
-  margin-bottom: 6rem;
+  bottom: 27%;
+  /* margin-bottom: 6rem; */
   /* padding-top: 1.25rem; */
   padding-left: 2rem;
   padding-right: 2rem;
   background: rgba(66, 44, 7, 0.8);
+  max-width: 44.25rem;
+  margin: 0 auto;
+  border-radius: 0.3125rem;
 }
 
 #bold {
@@ -159,7 +164,6 @@
   background: url(assets/whiskey-text.jpg) no-repeat;
   background-color: #000;
 }
-
 
 /* modal */
 
@@ -253,6 +257,7 @@ a {
 
   #farm-to-big {
     display: block;
+    /* width: fit-content; */
   }
 
   /* ******** Bottle Container ******** */
@@ -280,21 +285,17 @@ a {
   #bonded-rye {
     grid-area: bonded-rye;
   }
-
-  .bottle-img {
-    max-width: 84%;
-    height: min-content;
-    /* aspect-ratio: 71/136; */
-    /* margin: 0 0.625rem 0 0.625rem; */
-  }
 }
 
 @media (min-width: 320px) and (max-width: 666px) {
   .row {
     height: 34em;
   }
+  
   .car-img {
+    max-height: 90vh;
     height: 34em;
+    width: auto;
   }
 
   #spirit {

@@ -1,0 +1,13 @@
+
+.footer {
+  background: #73080b;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  border: 0;
+}
+
+.footer-logo {
+  /* grid-area: 1/2/2/3; */
+  margin: 15px;
+  /* justify-self:center; */
+}
