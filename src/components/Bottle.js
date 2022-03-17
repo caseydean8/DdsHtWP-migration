@@ -25,21 +25,18 @@ function Bottle(props) {
         {props.flavor}
       </button>
 
-      {/* <div className="keystone-top"></div> */}
-      {/* <div className="keystone"></div> */}
-
       {/* Below- keystone logo/button */}
       <button
         type="button"
         className="btn d-none d-md-grid keystone-divider"
         data-bs-toggle="modal"
         data-bs-target={`#${props.modalSelect}`}
-      >{props.flavor}
+      >
+        {props.flavor}
       </button>
 
-        {/* <div className="keystone-text">{props.flavor}</div> */}
-
       <hr className="bottle-divider d-none d-md-grid"></hr>
+
       <hr id="bd-2" className="bottle-divider d-none d-md-grid"></hr>
 
       <BottleModal
@@ -55,11 +52,10 @@ function Bottle(props) {
 export default Bottle;
 // exp: export default moduleName
 
-
-        // {/* <img
-        //   className="keystone-img"
-        //   src={Keystone}
-        //   alt="keystone divider"
-        //   width="137"
-        //   height="50"
-        // /> */}
+// {/* <img
+//   className="keystone-img"
+//   src={Keystone}
+//   alt="keystone divider"
+//   width="137"
+//   height="50"
+// /> */}

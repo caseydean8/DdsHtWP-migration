@@ -251,9 +251,6 @@ a {
     height: auto;
   }
 
-  #farm-to-mobile {
-    display: none;
-  }
 
   #farm-to-big {
     display: block;
@@ -287,6 +284,19 @@ a {
   }
 }
 
+@media (min-width: 667px) and (max-width: 884px) {
+
+  .car-img {
+    width: 100%;
+    height: auto;
+    /* min-height: 50vh; */
+  }
+  
+  #farm-to-mobile {
+    display: none;
+  }
+  
+}
 @media (min-width: 320px) and (max-width: 666px) {
   .row {
     height: 34em;
@@ -301,13 +311,15 @@ a {
   #spirit {
     margin-left: 26%;
     transform: translateX(-50%);
-    /* width:auto; */
-    /* height:90%; */
   }
 
   #rye-delivered {
-    margin-left: 90%;
+    margin-left: 79%;
     transform: translateX(-50%);
+  }
+
+  #farm-to-mobile {
+    min-width: 666px;
   }
 
   #farm-to-big {
