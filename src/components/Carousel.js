@@ -24,7 +24,7 @@ const Carousel = () => {
           />
           {/* width=1400 height=720 */}
           <CarouselCard
-            titleBold={"Spirit"}
+            titleBold={"SPIRIT"}
             titleCursive={"of Tradition"}
             cardText={
               "Dad's Hat Rye taps into the Keystone State's agricultural richness to produce genuine rye right here in Bucks County."

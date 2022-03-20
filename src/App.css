@@ -68,27 +68,30 @@
   font-family: "PT Sans Narrow", sans-serif;
   /* min-height: 20.8125rem; */
   /* top: 35%; */
+  font-weight: 500;
   left: 0 !important;
   right: 0 !important;
   bottom: 27%;
+  /* top:27%; */
   /* margin-bottom: 6rem; */
   /* padding-top: 1.25rem; */
   padding-left: 2rem;
   padding-right: 2rem;
   background: rgba(66, 44, 7, 0.8);
-  max-width: 44.25rem;
+  max-width: 38.75rem;
   margin: 0 auto;
   border-radius: 0.3125rem;
 }
 
 #bold {
   /* @font-face preloaded in public/font.css */
-  font-family: "frontage-condensed-bold";
+  /* font-family: "frontage-condensed-bold"; */
   font-size: 6rem;
+  font-weight: 700;
   text-shadow: 0rem 0rem 1.25rem black;
-  letter-spacing: -0.12em;
-  margin-bottom: -2.68rem;
-  margin-left: -5%;
+  /* letter-spacing: -0.12em; */
+  margin-bottom: -2.625rem;
+  /* margin-left: -5%; */
   margin-top: -0.5rem;
 }
 
@@ -101,7 +104,8 @@
 .cursive {
   font-size: 3rem;
   text-shadow: 0rem 0rem 1.25rem black;
-  font-family: "Lobster", cursive;
+  /* font-family: "Lobster", cursive; */
+  font-weight: 500;
   margin-bottom: -0.5rem;
   animation: fadeIn linear 3s;
   -webkit-animation: fadeIn linear 3s;
@@ -251,12 +255,14 @@ a {
     height: auto;
   }
 
-
   #farm-to-big {
     display: block;
     /* width: fit-content; */
   }
 
+  #farm-to-mobile {
+    display: none;
+  }
   /* ******** Bottle Container ******** */
   .bottle-container {
     display: grid;
@@ -285,23 +291,21 @@ a {
 }
 
 @media (min-width: 667px) and (max-width: 884px) {
-
   .car-img {
     width: 100%;
     height: auto;
     /* min-height: 50vh; */
   }
-  
+
   #farm-to-mobile {
     display: none;
   }
-  
 }
 @media (min-width: 320px) and (max-width: 666px) {
   .row {
     height: 34em;
   }
-  
+
   .car-img {
     max-height: 90vh;
     height: 34em;
