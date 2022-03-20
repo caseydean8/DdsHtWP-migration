@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/DdsHtWP-migration/static/css/main.1371c3cb.css",
-    "main.js": "/DdsHtWP-migration/static/js/main.6c7e832f.js",
+    "main.css": "/DdsHtWP-migration/static/css/main.39b5d7ee.css",
+    "main.js": "/DdsHtWP-migration/static/js/main.e9b4c491.js",
     "static/media/founders.jpg": "/DdsHtWP-migration/static/media/founders.bb3fbaf3798b9f867cf2.jpg",
     "static/media/spirit.png": "/DdsHtWP-migration/static/media/spirit.bef616091b40d2fbb1d1.png",
+    "static/media/farm-to-bottle.jpg": "/DdsHtWP-migration/static/media/farm-to-bottle.cb268ac0ae619c806ae7.jpg",
     "static/media/4straight.png": "/DdsHtWP-migration/static/media/4straight.8caf76e518620ca661e0.png",
     "static/media/rye-delivered.jpg": "/DdsHtWP-migration/static/media/rye-delivered.8474bf19bded3df40892.jpg",
     "static/media/2port-wine.png": "/DdsHtWP-migration/static/media/2port-wine.ab7dcc05c508c78ae0a3.png",
@@ -17,11 +18,11 @@
     "static/media/wine-en-top100.png": "/DdsHtWP-migration/static/media/wine-en-top100.0ceb32e6cbb25195fd7e.png",
     "static/media/white-logo.webp": "/DdsHtWP-migration/static/media/white-logo.d97caca8b82814009999.webp",
     "index.html": "/DdsHtWP-migration/index.html",
-    "main.1371c3cb.css.map": "/DdsHtWP-migration/static/css/main.1371c3cb.css.map",
-    "main.6c7e832f.js.map": "/DdsHtWP-migration/static/js/main.6c7e832f.js.map"
+    "main.39b5d7ee.css.map": "/DdsHtWP-migration/static/css/main.39b5d7ee.css.map",
+    "main.e9b4c491.js.map": "/DdsHtWP-migration/static/js/main.e9b4c491.js.map"
   },
   "entrypoints": [
-    "static/css/main.1371c3cb.css",
-    "static/js/main.6c7e832f.js"
+    "static/css/main.39b5d7ee.css",
+    "static/js/main.e9b4c491.js"
   ]
 }
